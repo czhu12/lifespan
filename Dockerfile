@@ -19,4 +19,4 @@ ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
 
 # Command to run the application
-CMD ["streamlit", "run", "app.py", "--server.port=3000", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
